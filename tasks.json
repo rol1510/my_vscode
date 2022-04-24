@@ -1,0 +1,57 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run real estate comp",
+      "type": "shell",
+      "command": "C:/Python/3.9.1_64/python.exe 'D:/Coding Projects/RealEstateComparer/main.py'",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "run quickPy",
+      "type": "shell",
+      "command": "D:\\HelperScripts\\quickPy.bat",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "run current python file",
+      "type": "shell",
+      "command": "py",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "showOutput": "always",
+      "args": [
+        "${file}"
+      ]
+    },
+    {
+      "label": "run ahk",
+      "type": "shell",
+      "command": "SteamMarketSeller.ahk",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "run vocab_trainer",
+      "type": "shell",
+      "command": "C:/Python/3.6.7_64/python.exe D:/Programmieren/Projects/VocabTrainer/vocab_trainer.py"
+    },
+    {
+      "label": "run pytest",
+      "type": "shell",
+      "command": "pytest",
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    }
+  ]
+}
