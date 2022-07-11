@@ -299,4 +299,54 @@
     "key": "ctrl+u",
     "command": "workbench.action.focusPreviousGroup"
   },
+  {
+    "key": "ctrl+oem_period",
+    "command": "-editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+oem_period",
+    "command": "-problems.action.showQuickFixes",
+    "when": "problemFocus"
+  },
+  {
+    "key": "ctrl+oem_minus",
+    "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-extension.wipeCommon"
+  },
+  {
+    "key": "ctrl+oem_minus",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+oem_minus",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+oem_period",
+    "command": "workbench.action.evenEditorWidths"
+  },
+  {
+    "key": "ctrl+oem_period",
+    "command": "workbench.action.toggleEditorWidths"
+  },
+  {
+    "key": "alt+oem_period",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
 ]

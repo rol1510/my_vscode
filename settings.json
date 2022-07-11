@@ -1,7 +1,10 @@
 {
   "editor.wordWrap": "on",
   "editor.lineNumbers": "on",
-  "editor.rulers": [80, 100],
+  "editor.rulers": [
+    80,
+    100
+  ],
   "editor.tabSize": 2,
   "[python]": {
     "editor.tabSize": 4
@@ -30,8 +33,37 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "workbench.colorTheme": "Navy Flat",
-  "window.zoomLevel": -1,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "cSpell.language": "en,de-DE",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "m"
+      ],
+      "after": [
+        "h"
+      ]
+    },
+    {
+      "before": [
+        ","
+      ],
+      "after": [
+        "l"
+      ]
+    },
+  ],
 }
